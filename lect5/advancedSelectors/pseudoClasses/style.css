@@ -1,0 +1,56 @@
+/* hover */
+/* h1{
+    background-color: aquamarine;
+}
+h1:hover{
+    background-color: blueviolet;
+}
+
+input:hover{
+    background-color: coral;
+    border: 3px solid brown;
+} */
+
+/* active */
+/* a[href="http://wikipedia.com"]:active{
+    color: red;
+} */
+
+/* visited */
+/* a[href="http://wikipedia.com"]:visited{
+    color: red;
+} */
+
+/* focus */
+/* input{
+    background-color: antiquewhite;
+}
+input:hover{
+    background-color: burlywood;
+}
+input:focus{
+    background-color: chartreuse;
+} */
+
+/* nth-of-type */
+/* li:nth-of-type(odd){
+    color: red;
+}
+li:nth-of-type(even){
+    color: greenyellow;
+} */
+
+/* li:nth-of-type(2){
+    color: rgb(153, 51, 109);
+} */
+
+/* li:first-child{
+    color: red;
+}
+li:last-child{
+    color: green;
+} */
+
+li:nth-of-type(3n + 5){
+  background-color: aqua;  
+}

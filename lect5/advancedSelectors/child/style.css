@@ -1,0 +1,27 @@
+/* child */
+/* section>div>p{
+    color: blue;
+} */
+
+/* section>section>div>p{
+    color: red;
+} */
+
+/* won't work */
+/* section>section>p{
+    color: red;
+} */
+
+/* adjacent sibling */
+/* article + section {
+    background-color: yellowgreen;
+} */
+
+/* section + article {
+    background-color: aqua;
+} */
+
+/* general sibling */
+section ~ article {
+    background-color: rgb(222, 95, 95);
+}

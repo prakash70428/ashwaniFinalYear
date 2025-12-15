@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tables</h1>
+
+    <table border="5" cellspacing="10" cellpadding="10" align="center" bgcolor="yellow">
+        <thead>
+            <tr>
+                <th>Periods/Days</th>
+                <th>Mon</th>
+                <th>Tues</th>
+                <th>Wed</th>
+                <th>Thur</th>
+                <th>Fri</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td rowspan="3">Maths</td>
+                <td rowspan="3">Eco</td>
+                <td>Physics</td>
+                <td>Chemistry</td>
+                <td rowspan="4">Dsa</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <!-- <td>Maths</td> -->
+                <!-- <td>Eco</td> -->
+                <td>Chemistry</td>
+                <td>Physics</td>
+                <!-- <td>Dsa</td> -->
+            </tr>
+            <tr>
+                <td>3</td>
+                <!-- <td>Maths</td> -->
+                <!-- <td>Eco</td> -->
+                <td colspan="2">Physics</td>
+                <!-- <td>Physics</td> -->
+                <!-- <td>Dsa</td> -->
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Eco</td>
+                <td>Maths</td>
+                <td colspan="2">Chemistry</td>
+                <!-- <td>Chemistry</td> -->
+                <!-- <td>Dsa</td> -->
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Maths</td>
+                <td>Eco</td>
+                <td>Physics</td>
+                <td>Dsa</td>
+                <td>Chemistry</td>
+            </tr>
+            
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="6">Time table for 10th class</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
